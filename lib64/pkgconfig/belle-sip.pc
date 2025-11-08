@@ -1,0 +1,13 @@
+# This is a comment
+prefix=/home/defaultuser/.local
+exec_prefix=/home/defaultuser/.local/bin
+includedir=/home/defaultuser/.local/include
+
+Name: belle-sip 
+Description: A c based implementation of the SIP (RFC 3261)  telephony protocol 
+Requires: bctoolbox
+Requires.private:  
+Version: 5.2.0
+Libs: -L/home/defaultuser/.local/lib64 -lbellesip
+Libs.private: 
+Cflags: -I/home/defaultuser/.local/include 

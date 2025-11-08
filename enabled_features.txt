@@ -1,0 +1,22 @@
+Enabled features:
+ * Tools, Enable tools binary compilation.
+ * Xml2, Enable bc version of libxml2
+ * Sqlite, Enable bc version of sqlite3
+ * Zlib, Enable bc version of zlib
+ * SRTP, SRTP media encryption support.
+ * ZRTP, ZRTP media encryption support.
+ * GOCLEAR, ZRTP GoClear message support.
+ * Mbedtls, Crypto stack implementation based on mbeddtls.
+ * WebRTC AEC, WebRTC echo canceller support.
+ * GSM, GSM audio encoding/decoding support.
+ * iLBC, iLBC audio encoding/decoding support.
+ * OPUS, OPUS audio encoding/decoding support.
+ * Speex, Speex audio encoding/decoding support.
+ * CXX wrapper, Build the C++ wrapper for Liblinphone.
+ * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
+ * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
+ * Daemon, Enable Linphone Daemon.
+ * Assets, Enable packaging of assets (ringtones) when building the SDK.
+ * Advanced IM, Enable advanced instant messaging such as group chat.
+ * DB Storage, Enable the database storage.
+ * Relative prefix, liblinphone and mediastreamer will look for their respective ressources relatively to their location.

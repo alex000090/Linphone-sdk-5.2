@@ -1,0 +1,15 @@
+# libspeexdsp pkg-config source file
+
+prefix=/home/defaultuser/.local
+exec_prefix=/home/defaultuser/.local/bin
+libdir=/home/defaultuser/.local/lib64
+includedir=/home/defaultuser/.local/include
+
+Name: speexdsp
+Description: Speexdsp is a speech processing library that goes along with the Speex codec
+Version: 1.2rc1
+Requires: 
+Conflicts:
+Libs: -L/home/defaultuser/.local/lib64 -lspeexdsp
+Libs.private: -lm
+Cflags: -I/home/defaultuser/.local/include

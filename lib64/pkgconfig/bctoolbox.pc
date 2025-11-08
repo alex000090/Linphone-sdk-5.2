@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/home/defaultuser/.local
+exec_prefix=/home/defaultuser/.local
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communication's softwares
+Version: 5.2.0
+Libs: -L/home/defaultuser/.local/lib64 -lbctoolbox
+Libs.private: 
+Cflags: -I/home/defaultuser/.local/include

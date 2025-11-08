@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/home/defaultuser/.local
+exec_prefix=/home/defaultuser/.local/bin
+includedir=/home/defaultuser/.local/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access.
+Version: 5.2.0
+Libs: -L/home/defaultuser/.local/lib -lortp 
+Cflags: -I/home/defaultuser/.local/include 
